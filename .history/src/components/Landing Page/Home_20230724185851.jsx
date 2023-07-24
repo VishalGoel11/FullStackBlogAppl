@@ -13,25 +13,25 @@ const Home = () => {
   // ]
   return (
     <div className ="bg-[url('assets\heroBg.jpg')] bg-cover h-screen">
-        <div className='flex justify-between p-8 md:mx-8'>
+        <div className='flex justify-between p-8 md:mx-10'>
             <div className='w-52'>
               <img src= {Logo} alt=""  />
             </div>
-            <div className='cursor-pointer list-none p-2 gap-x-2  md:gap-10' >
+            <div className=' list-none p-2 gap-x-2  md:gap-10' >
              {/* {nav_menu.map(menu =>(
               <a href={menu.url} className="">
               <li>{menu.name}</li>
             </a>
              ))} */}
-             <a href="www.google.com" target='_blank'><li className='border-2 px-2 py-1'>Connect</li></a>
+             <li className='border px-1'><a href=""></a>Connect</li>
             </div>
         </div>
         <div className='md:flex md:justify-around'>
-          <div className='text-center mt-10 mx-10 md:w-1/2 md:text-left md:my-24'>
+          <div className='text-center mt-10 mx-10 md:w-1/2 md:text-left md:m-24'>
             <h1 className='text-4xl md:text-5xl font-bold  '>Ink & Imagination:<br/> Where Creativity Knows No Bounds</h1>
             <p className='mt-5'>Discover insightful articles and stay informed on various topics. Engage, learn, and grow with us!</p>
           </div>
-          <div className='bg-white md:px-10 m-10 text-black rounded-md py-10'>
+          <div className='bg-white md:px-20 m-10 text-black rounded-md py-10'>
             <div className='text-center '>
               <h2  className='text-xl font-bold md:text-2xl'>Welcome</h2>
               <p>Don't have an account?<br/><span className='underline cursor-pointer'>Create one!</span></p>

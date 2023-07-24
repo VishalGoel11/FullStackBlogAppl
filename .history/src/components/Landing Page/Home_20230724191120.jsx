@@ -13,7 +13,7 @@ const Home = () => {
   // ]
   return (
     <div className ="bg-[url('assets\heroBg.jpg')] bg-cover h-screen">
-        <div className='flex justify-between p-8 md:mx-8'>
+        <div className='flex justify-between p-8 md:mx-10'>
             <div className='w-52'>
               <img src= {Logo} alt=""  />
             </div>
@@ -27,7 +27,7 @@ const Home = () => {
             </div>
         </div>
         <div className='md:flex md:justify-around'>
-          <div className='text-center mt-10 mx-10 md:w-1/2 md:text-left md:my-24'>
+          <div className='text-center mt-10 mx-10 md:w-1/2 md:text-left md:m-24'>
             <h1 className='text-4xl md:text-5xl font-bold  '>Ink & Imagination:<br/> Where Creativity Knows No Bounds</h1>
             <p className='mt-5'>Discover insightful articles and stay informed on various topics. Engage, learn, and grow with us!</p>
           </div>

@@ -13,7 +13,7 @@ const Home = () => {
   // ]
   return (
     <div className ="bg-[url('assets\heroBg.jpg')] bg-cover h-screen">
-        <div className='flex justify-between p-8 md:mx-8'>
+        <div className='flex justify-between p-8 md:mx-10'>
             <div className='w-52'>
               <img src= {Logo} alt=""  />
             </div>
