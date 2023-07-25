@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+=======
+>>>>>>> 3cc5219a08bccc91dbd31f7bb0411244bb1e420c
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -8,7 +11,11 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+<<<<<<< HEAD
   background-color: #000000;
+=======
+  background-color: #242424;
+>>>>>>> 3cc5219a08bccc91dbd31f7bb0411244bb1e420c
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,7 +23,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+<<<<<<< HEAD
 /* 
+=======
+
+>>>>>>> 3cc5219a08bccc91dbd31f7bb0411244bb1e420c
 a {
   font-weight: 500;
   color: #646cff;
@@ -24,6 +35,7 @@ a {
 }
 a:hover {
   color: #535bf2;
+<<<<<<< HEAD
 } */
 
 body {
@@ -32,6 +44,18 @@ body {
   padding: 0;
 }
 /* b
+=======
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+>>>>>>> 3cc5219a08bccc91dbd31f7bb0411244bb1e420c
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -67,4 +91,8 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 3cc5219a08bccc91dbd31f7bb0411244bb1e420c
