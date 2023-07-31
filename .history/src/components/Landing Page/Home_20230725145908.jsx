@@ -35,7 +35,7 @@ const Home = () => {
             <div className='text-center '>
               <h2  className='text-xl font-bold md:text-2xl'>Welcome</h2>
               <p>Don't have an account?<br/><span className='underline cursor-pointer'><a>Create one!</a>git </span></p>
-              <div className='bg-black w-20 h-2 '> .</div>
+              gi
             </div>
               <div className='grid justify-center gap-y-5 md:gap-y-8 py-10'>
                 <div className='flex gap-2'>
